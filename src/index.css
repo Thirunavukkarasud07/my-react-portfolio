@@ -1,0 +1,25 @@
+a{
+    text-decoration: none !important;
+}
+.herobanner{
+    background-image: url(./assets/images/banner-bg.webp);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+.skils div{
+   border: 1px dashed #3333;
+   padding: 10px;
+   text-align: center;
+   border-radius: 10px;
+   font-size: 16px;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+}
+.skils div i{
+    font-size: 15px !important;
+}
