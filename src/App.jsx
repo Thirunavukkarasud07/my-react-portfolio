@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Skill from './components/Skill'
 import Header from './Header'
 import Footer from './Footer'
+import '@fontsource/poppins'
 
 function App() {
   

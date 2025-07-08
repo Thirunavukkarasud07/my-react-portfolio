@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <header className="d-flex justify-content-between px-5 py-4 border border-bottom">
-      <div><h3>Thiru.dk</h3></div>
+    <header className="d-flex justify-content-between px-5 py-4 border border-bottom shadow--bottom-sm z-1 bg-white position-fixed top-0 w-100">
+      <div><h3>Thiru.D</h3></div>
       <nav className="d-flex gap-3 mb-0 justify-content-center align-items-center">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
