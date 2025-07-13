@@ -20,11 +20,28 @@ a{
     text-decoration: none !important;
     color: #333 !important;
 }
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999999 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.project_cards .card{
+    background: #afafff4a !important;
+    border: transparent !important;
+}
 .herobanner{
-    background-image: url(./assets/images/banner-bg.webp);
+    background-image: url(./assets/images/banner-bg-01.jpg);
     width: 100%;
+    position: relative;
     height: 100vh;
-    object-fit: cover;
+    background-size: cover;
     background-position:right center;
     background-repeat: no-repeat;
 }
@@ -41,4 +58,18 @@ a{
 }
 .skils div i{
     font-size: 15px !important;
+}
+@media(max-width: 767px){
+    h1{
+        font-size: 2.3rem !important;
+    }
+    p{
+        font-size: 1rem !important;
+    }
+    .container{
+        width: 90% !important;
+    }
+    .herobanner .w-75{
+        width: 90% !important;
+    }
 }

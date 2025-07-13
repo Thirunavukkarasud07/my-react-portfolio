@@ -9,7 +9,7 @@ function Home() {
         transition={{ duration: 2 }}
         className='text-center'
       >
-        Hi, I'm Thirunavukkarasu — Fullstack Web Developer
+        Hi, I'm Thirunavukkarasu Fullstack Web Developer
       </motion.h1>
       {/* <h1 className='fs-1'></h1> */}
       <p className='text-center mb-0'>I design and build modern, scalable web applications using React, Laravel, and other powerful technologies. I focus on performance, maintainability, and user experience.</p>
