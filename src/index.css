@@ -111,4 +111,17 @@ header{
     .herobanner .w-75{
         width: 90% !important;
     }
+    header{
+    width: 100%;
+    max-width: 98%;
+    min-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 1%;
+    top: 2%;
+}
+    #contact{
+        padding: 3rem 1rem !important;
+    }
 }
