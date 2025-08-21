@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 function Home() {
   return (
     <div className='herobanner'>
-     <div className="w-75 mx-auto h-100 d-flex flex-column justify-content-md-center justify-content-end align-items-center text-white gap-3">
+     <div className="w-75 mx-auto h-100 d-flex flex-column justify-content-md-center justify-content-center align-items-center text-white gap-3">
        <motion.h1
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0 }}
