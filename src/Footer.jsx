@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-       <div className="d-flex justify-content-between px-5 py-3 border border-bottom">
+       <div className="d-flex justify-content-between px-5 py-3 footer">
       <div><h3>Thiru.D</h3></div>
       <nav className="d-flex gap-3 mb-0 justify-content-center align-items-center">
         <a target='_blank' href="https://www.linkedin.com/in/dkthirunavukkarasu/"><i class="fa-brands fa-linkedin-in"></i></a>
